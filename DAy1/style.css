@@ -1,0 +1,39 @@
+*{
+    margin:0;
+}
+header{  
+text-align:center;
+padding:0em 0;
+background-image: url(food.jpg);
+height:920px;
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-size: cover;
+background-position: center top;   
+}
+header h2{
+    color:rgb(224, 34, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header nav ul{
+    list-style-type: none;
+    padding:0; 
+    text-align: left; 
+}
+
+header nav ul li{
+    display : inline-block;
+    margin: 1px 15px;
+}
+header nav ul li a{
+    color:rgb(253, 240, 255);
+    text-decoration-line: none;
+    font-size:x-large;
+    font-weight: bold; 
+}   
+header h2{
+    color:rgb(222, 186, 24);
+    padding:12px;
+    height: 10px;
+    box-sizing: border-box ; 
+}
