@@ -4,9 +4,12 @@
             margin: 0;
             padding: 0;
         }
+header{
+    position: sticky;
+    top: 0px;
 
+}
         nav {
-            position: sticky;
             background-color: rgb(246, 137, 246);
         }
 
