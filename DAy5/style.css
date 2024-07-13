@@ -1,111 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-        * {
-            margin: 0;
-            padding: 0;
-        }
-header{
-    position: sticky;
-    top: 0px;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-        nav {
-            background-color: rgb(246, 137, 246);
-        }
+header {
+  position: sticky;
+  top: 0px;
+}
+nav {
+  background-color: rgb(246, 137, 246);
+}
 
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
+nav ul {
+  display: flex;
+  list-style: none;
+}
 
-        nav ul li {
-            padding: 10px 0px;
-            cursor: pointer;
-        }
+nav ul li {
+  padding: 10px 0px;
+  cursor: pointer;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: black;
-            font-family: "Baloo Bhai 2", sans-serif;
-            font-weight: 600;
-            font-size: 20px;
-            padding: 10px 25px;
-        }
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Baloo Bhai 2", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 25px;
+}
 
-        nav ul li:hover {
-            background-color: rgb(247, 186, 186);
-        }
+nav ul li:hover {
+  background-color: rgb(247, 186, 186);
+}
 
-        nav ul li a:hover {
-            background-color: rgb(247, 186, 186);
-            color: rgb(26, 11, 239);
-        }
+nav ul li a:hover {
+  background-color: rgb(247, 186, 186);
+  color: rgb(26, 11, 239);
+}
 
-        .page {
-            background-color: black;
-            height: 1000px;
-            padding-top: 10px;
+.page {
+  background-color: black;
+  height: 1000px;
+  padding-top: 10px;
+}
 
-        }
+.container {
+  height: 500px;
 
-        .container {
-            height: 500px;
+  background-color: green;
+  margin: 0px 20px 0px 20px;
+}
 
-            background-color: green;
-            margin: 0px 20px 0px 20px;
+.capsule {
+  display: inline-block;
+  /* background-color: aqua; */
+  height: 400px;
+  width: 400px;
+}
 
+.box1 {
+  margin: 55px 180px 0px 220px;
+  background-color: rgb(233, 158, 150);
+}
 
-        }
+.box2 {
+  padding: 0px 0px 0px 0px;
+  background-color: rgb(90, 119, 247);
+}
 
+.textarea {
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 70px;
+  margin: 15px 50px 0px 50px;
+}
 
-        .capsule {
+p {
+  color: white;
+  text-align: center;
+  /* margin: 0px 0px 0px 0px; */
+  padding: 25px;
+  align-items: center;
+  font-family: "Merriweather", serif;
+}
 
-            display: inline-block;
-            /* background-color: aqua; */
-            height: 400px;
-            width: 400px;
-        }
+img {
+  bottom: 35px;
+  right: 10px;
+  position: fixed;
+  border: 5px solid black;
+  border-radius: 50%;
+}
 
-        .box1 {
-            margin: 55px 180px 0px 220px;
-            background-color: rgb(233, 158, 150)
-        }
-
-        .box2 {
-            padding: 0px 0px 0px 0px;
-            background-color: rgb(90, 119, 247);
-        }
-
-        .textarea {
-            border: 1px solid white;
-            border-radius: 20px;
-            height: 70px;
-            margin: 15px 50px 0px 50px;
-        }
-
-        p {
-
-            color: white;
-            text-align: center;
-            /* margin: 0px 0px 0px 0px; */
-            padding: 25px;
-            align-items: center;
-            font-family: "Merriweather", serif;
-        }
-
-        img {
-            bottom: 35px;
-            right: 10px;
-            position: fixed;
-            border: 5px solid black;
-            border-radius: 50%;
-        }
-
-        footer {
-            height: 30px;
-            text-align: center;
-            padding-top: 10px;
-            background-color: rgb(136, 136, 132);
-            font-weight: 800;
-            font-family: "Poppins", sans-serif;
-        }
+footer {
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: rgb(136, 136, 132);
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+}
