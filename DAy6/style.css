@@ -23,7 +23,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 0;
+  padding: 0;
 }
 .cursor {
   cursor: pointer;
@@ -163,6 +163,16 @@ main h1 {
   background-color: #5cb85c;
   color: black;
 }
+.item a {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+}
+
+.item a:hover {
+}
+
 footer {
   height: 30px;
   text-align: center;
@@ -172,15 +182,13 @@ footer {
   font-family: "Poppins", sans-serif;
   align-content: center;
 }
-.image{
-
+.image {
 }
 .chatbot {
-    height:60px;
+  height: 60px;
   bottom: 35px;
   right: 10px;
   position: fixed;
   /* border: 5px NOEN black; */
   border-radius: 50%;
-
 }
