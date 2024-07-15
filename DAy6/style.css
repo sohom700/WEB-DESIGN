@@ -161,7 +161,7 @@ main h1 {
 }
 .bit:hover {
   background-color: #5cb85c;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 .item a {
   padding: 0px;
@@ -173,7 +173,7 @@ main h1 {
 .item a:hover {
 }
 
-footer {
+/* footer {
   height: 30px;
   text-align: center;
   margin-top: 10px;
@@ -181,7 +181,7 @@ footer {
   font-weight: 800;
   font-family: "Poppins", sans-serif;
   align-content: center;
-}
+} */
 .image {
 }
 .chatbot {
@@ -191,4 +191,41 @@ footer {
   position: fixed;
   /* border: 5px NOEN black; */
   border-radius: 50%;
+}
+.jar::after {
+  content: " ©copy 2024 Sohom. All rights reserved";
+  height: 30px;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  background-color: yellow;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  align-content: center;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 5px;
+  }
+  .jar::after {
+    display: none;
+  }
+  .container::after {
+    content: " ©copy 2024 Sohom. All rights reserved";
+    height: 30px;
+    width: 800px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: yellow;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+    align-content: center;
+  }
 }
