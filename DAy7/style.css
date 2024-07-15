@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  height: 77vh;
+  width: 79vw;
+  background-color: rgb(8, 8, 8);
+}
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+  animation: xaxis 4s linear infinite, 
+             yaxis 1s ease-out infinite alternate;
+}
+
+@keyframes xaxis {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 98%;
+  }
+}
+@keyframes yaxis {
+  from {
+    bottom: 0vh;
+  }
+  to {
+    bottom: 70vh;
+  }
+}
