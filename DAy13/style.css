@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  height: 10vw;
+  width: auto;
+  border: 1px solid black;
+  display: flex;
+ 
+  gap: 20px;
+  align-items: center;
+  /* background-color: black; */
+  justify-content: center;
+  padding: 2px 20px;
+  text-decoration: none;
+}
+
+.sec {
+  height: 8vw;
+  color: white;
+}
+.number {
+  align-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.image {
+  width: 15%;
+  display: flex;
+  border-radius: 10px;
+}
+img {
+  border-radius: 7px;
+}
+
+.about {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+.about .title{
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.about .caninfo {
+    margin-top: 15px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
+    opacity: 0.7;
+
+}
+
+.link{
+    background-color: aqua;
+    height: 88px;
+}
+.container:hover {
+    cursor: pointer;
+    background-color: rgba(213, 207, 207, 0.178);
+    border-radius: 20px;
+  }
+  .duration {
+    background-color: black;
+    border-radius: 5px;
+    /* margin-right: 2000px; */
+    padding: 2px;
+    color: white;
+    position: relative;
+    height: 17px;
+    align-content: center;
+    top: 80px;
+    right: 40px;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 500;
+}
