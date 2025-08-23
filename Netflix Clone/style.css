@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/netflix-font");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  /* margin: auto; */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background-image: url("Assets/Image/bc.jpg");
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  position: relative;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.box {
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+  background-color: black;
+  margin: auto;
+}
+nav {
+  z-index: 10;
+  position: relative;
+  height: 10vh;
+  width: 77vw;
+  margin: auto;
+
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
+nav span img {
+  width: 21vh;
+}
+.in {
+  display: flex;
+  gap: 23px;
+  height: 4.5vh;
+  padding-right: 20px;
+  margin-top: -9px;
+  font-family: "Netflix Font", sans-serif;
+}
+.symbol {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.396);
+  border-radius: 4px;
+  padding: 0px 6px 0px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin: auto;
+}
+.btn {
+  border-radius: 4px;
+  border: 1px solid rgb(229, 9, 20);
+  background-color: rgb(229, 9, 20);
+  color: rgb(253, 253, 253);
+  cursor: pointer;
+}
+
+.btnin {
+  font-size: 14px;
+  font-weight: 550;
+  max-width: 300vh;
+  padding: 0px 15px;
+}
+.btn:hover {
+  background-color: rgba(229, 9, 20, 0.853);
+}
+.contain {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  justify-items: center;
+  min-height: 80%;
+  padding: 0;
+  top: 0;
+  max-height: 500px;
+  color: white;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+/* .content {
+  position:relative;
+  color: rgb(255, 255, 255);
+  height: 60%;
+  min-width: 500px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+   gap: 5px; 
+  font-family: "Martel Sans", sans-serif;
+  margin: auto;
+} */
+
+.contain > :nth-child(1) {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.contain > :nth-child(2) {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contain > :nth-child(3) {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.boxmail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mail {
+  position: relative;
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  gap: 8px;
+}
+
+/* rgb(229,9,20) netflix rgb color */
+
+.mail input {
+  padding: 7px 0px;
+  height: 5vh;
+  min-width: 27vw;
+  background-color: rgba(23, 23, 23, 0.68);
+  border: 1px solid rgba(255, 255, 255, 0.396);
+  border-radius: 7px;
+  color: white;
+  padding-left: 15px;
+  font-size: medium;
+}
+.mail input:hover {
+  background-color: rgba(16, 15, 15, 0.68);
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.728);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btns {
+  padding: 0px 0px;
+  height: 7vh;
+  min-width: 15vw;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.divide {
+  /* height: 8px;
+  min-width: 120vh;
+  background-color: rgb(41, 40, 40);
+  position: relative; */
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 74vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-tracks: center;
+}
+.sectionimg {
+  position: relative;
+  padding-bottom: 62px;
+}
+.first div {
+  /* margin: auto; */
+}
+.sectionimg img {
+  width: 550px;
+  position: relative;
+  z-index: 10;
+}
+.sectionimg video {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 475px;
+}
+.first :nth-child(1) {
+  font-family: "Martel Sans", sans-serif;
+}
+.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.first > div :nth-child(2) {
+  /* margin-top: 25px; */
+  font-size: 22px;
+}
+.secfont > :nth-child(1) {
+  font-size: 40px !important;
+}
+.secfont > :nth-child(2) {
+  font-size: 22px;
+}
+.sectionimg3 {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 30px;
+}
+.sectionimg3 img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.sectionimg3 video {
+  position: absolute;
+  top: 87px;
+  left: 103px;
+  width: 350px;
+}
+.faq h2 {
+}
+
+.faqbox {
+  transition: all 1s ease-out;
+  font-size: 22px;
+  font-family: "Martel Sans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 20px;
+  max-width: 73vw;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.faq {
+  background: black;
+  color: white;
+  padding: 40px;
+  /* min-height: 50vw; */
+}
+.faq h2 {
+  font-size: 55px;
+  font-weight: 900;
+  font-family: "popins";
+  text-align: center;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+.ready {
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "popins";
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 0px 20vw;
+  max-width: 80vw;
+  margin: 10px auto;
+  transition: all 1s ease-out;
+}
+
+.sub > :nth-child(2) {
+  position: relative;
+}
+
+
+
+footer {
+  color: rgba(255, 255, 255, 0.742);
+  max-width: 80vw;
+    margin: auto;
+    padding: 45px 10px;
+    /* padding: 50px; */
+}
+.question {
+}
+.question span {
+  font-size: 18px;
+}
+.question :nth-child(2){
+  text-decoration: underline ;
+}
+
+.footer{
+  display: grid;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  color: white;
+  padding-top: 20px;
+  margin: auto;
+}
+.faqfooter{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* margin: auto; */
+}
+.faqfooter a{
+  color: rgba(255, 255, 255, 0.742);
+  font-size: 16px;
+}
+.footbtncon{
+  padding-top: 25px;
+}
+.footbtn{
+  position: absolute;
+  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.396);
+  border-radius: 4px;
+  padding: 0px 6px 0px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin: auto;
+}
+.netflixIn{
+  padding-top: 55px;
+}
+
+@media screen and (max-width: 1300px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+  }
+
+  .first {
+    flex-wrap: wrap;
+  }
+
+  .sectionimg img {
+    width: 305px;
+  }
+
+  .sectionimg video {
+    width: 305px;
+  }
+  .sectionimg3 img {
+    width: 295px;
+  }
+
+  .sectionimg3 video {
+    width: 175px;
+    top: 15vw;
+    left: 10vh;
+    position: absolute;
+  }
+  .contain > :nth-child(1) {
+    font-size: 32px;
+  }
+
+  .contain > :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .contain > :nth-child(3) {
+    font-size: 18px;
+  }
+
+  .contain-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .faq h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+  .faq .ready {
+    text-align: center;
+    font-size: 22px;
+  }
+  footer {
+    max-width: 90vw;
+    padding: 75px 0;
+  }
+  
+  .faqfooter{
+    align-items: center;
+  }
+  }
+
+@media screen and (max-width: 1300px) {
+
+  .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
+
+
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.faqfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+}
